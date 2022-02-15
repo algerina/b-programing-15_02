@@ -1,73 +1,52 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+#A pangram is a string that contains every letter of the alphabet. Given a sentence determine whether it is a pangram in the English alphabet. Ignore case. Return either pangram or not pangram as appropriate.
 
-> Description the project.
+Example
 
+The string contains all letters in the English alphabet, so return pangram.
 
-## Built With
+Function Description
 
-- Major languages
-- Frameworks
-- Technologies used
+Complete the function pangrams in the editor below. It should return the string pangram if the input string is a pangram. Otherwise, it should return not pangram.
 
-## Live Demo (if available)
+pangrams has the following parameter(s):
 
-[Live Demo Link](https://livedemo.com)
+string s: a string to test
+Returns
 
+string: either pangram or not pangram
+Input Format
 
-## Getting Started
+A single line with string .
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
+Constraints
 
 
+Each character of , 
 
-## Authors
+Sample Input
 
-👤 **Author1**
+Sample Input 0
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+We promptly judged antique ivory buckles for the next prize
 
-👤 **Author2**
+Sample Output 0
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+pangram
 
-## 🤝 Contributing
+Sample Explanation 0
 
-Contributions, issues, and feature requests are welcome!
+All of the letters of the alphabet are present in the string.
 
-Feel free to check the [issues page](../../issues/).
+Sample Input 1
 
-## Show your support
+We promptly judged antique ivory buckles for the prize
 
-Give a ⭐️ if you like this project!
+Sample Output 1
 
-## Acknowledgments
+not pangram
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+Sample Explanation 0
 
-## 📝 License
-
-This project is [MIT](./MIT.md) licensed.
+The string lacks an x.
